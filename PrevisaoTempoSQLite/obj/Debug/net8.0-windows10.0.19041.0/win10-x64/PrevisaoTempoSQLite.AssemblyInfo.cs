@@ -12,10 +12,14 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("d1ff7d5b-97c8-4879-95e8-b1248b3ca139")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "com.companyname.previsaotemposqlite")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "PrevisaoTempoSQLite")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrevisaoTempoSQLite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dae78218ca22eb19b655addf27ce165ffd7295a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrevisaoTempoSQLite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrevisaoTempoSQLite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
